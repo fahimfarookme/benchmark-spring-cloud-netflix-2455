@@ -1,0 +1,2196 @@
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion
+
+# Run progress: 0.00% complete, ETA 00:12:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 5255348.348 ops/s
+# Warmup Iteration   2: 4405240.719 ops/s
+# Warmup Iteration   3: 5547444.022 ops/s
+# Warmup Iteration   4: 5638134.456 ops/s
+# Warmup Iteration   5: 5504772.540 ops/s
+# Warmup Iteration   6: 4533192.298 ops/s
+# Warmup Iteration   7: 5521285.548 ops/s
+# Warmup Iteration   8: 5142070.414 ops/s
+# Warmup Iteration   9: 5832014.244 ops/s
+# Warmup Iteration  10: 5742227.905 ops/s
+# Warmup Iteration  11: 5980997.216 ops/s
+# Warmup Iteration  12: 6276391.587 ops/s
+# Warmup Iteration  13: 4337401.916 ops/s
+# Warmup Iteration  14: 5414367.880 ops/s
+# Warmup Iteration  15: 5808608.191 ops/s
+# Warmup Iteration  16: 5757482.038 ops/s
+# Warmup Iteration  17: 6449021.550 ops/s
+# Warmup Iteration  18: 3868225.263 ops/s
+# Warmup Iteration  19: 5124336.408 ops/s
+# Warmup Iteration  20: 5742276.849 ops/s
+Iteration   1: 5665543.605 ops/s
+Iteration   2: 4479699.448 ops/s
+Iteration   3: 4836495.760 ops/s
+Iteration   4: 6201485.779 ops/s
+Iteration   5: 6272667.868 ops/s
+Iteration   6: 6085468.989 ops/s
+Iteration   7: 5596165.944 ops/s
+Iteration   8: 5858298.171 ops/s
+Iteration   9: 5830005.403 ops/s
+Iteration  10: 5619901.820 ops/s
+Iteration  11: 5740713.517 ops/s
+Iteration  12: 5687262.084 ops/s
+Iteration  13: 5742793.370 ops/s
+Iteration  14: 6143860.529 ops/s
+Iteration  15: 5145389.541 ops/s
+Iteration  16: 5575638.042 ops/s
+Iteration  17: 5830423.861 ops/s
+Iteration  18: 5937360.308 ops/s
+Iteration  19: 5912853.088 ops/s
+Iteration  20: 4989028.663 ops/s
+
+# Run progress: 5.56% complete, ETA 00:11:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 4955212.179 ops/s
+# Warmup Iteration   2: 5501955.411 ops/s
+# Warmup Iteration   3: 5954990.035 ops/s
+# Warmup Iteration   4: 5570991.229 ops/s
+# Warmup Iteration   5: 6175580.530 ops/s
+# Warmup Iteration   6: 4648092.012 ops/s
+# Warmup Iteration   7: 4480690.093 ops/s
+# Warmup Iteration   8: 5660648.362 ops/s
+# Warmup Iteration   9: 4081905.748 ops/s
+# Warmup Iteration  10: 5207659.638 ops/s
+# Warmup Iteration  11: 5632728.703 ops/s
+# Warmup Iteration  12: 4212857.552 ops/s
+# Warmup Iteration  13: 4904614.131 ops/s
+# Warmup Iteration  14: 4571069.261 ops/s
+# Warmup Iteration  15: 5208342.947 ops/s
+# Warmup Iteration  16: 5344727.388 ops/s
+# Warmup Iteration  17: 4223229.069 ops/s
+# Warmup Iteration  18: 5498113.267 ops/s
+# Warmup Iteration  19: 5329394.176 ops/s
+# Warmup Iteration  20: 5149654.279 ops/s
+Iteration   1: 5513162.840 ops/s
+Iteration   2: 5659172.937 ops/s
+Iteration   3: 5274252.473 ops/s
+Iteration   4: 5471441.172 ops/s
+Iteration   5: 5913481.958 ops/s
+Iteration   6: 5452832.262 ops/s
+Iteration   7: 5629698.609 ops/s
+Iteration   8: 5944910.961 ops/s
+Iteration   9: 4646973.309 ops/s
+Iteration  10: 3752604.216 ops/s
+Iteration  11: 4621402.846 ops/s
+Iteration  12: 5613244.263 ops/s
+Iteration  13: 6420425.726 ops/s
+Iteration  14: 4915255.565 ops/s
+Iteration  15: 5072621.958 ops/s
+Iteration  16: 4439357.815 ops/s
+Iteration  17: 4222036.463 ops/s
+Iteration  18: 5343552.459 ops/s
+Iteration  19: 5845800.296 ops/s
+Iteration  20: 5600358.003 ops/s
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion":
+  5267629.307 ±(99.9%) 571685.517 ops/s [Average]
+  (min, avg, max) = (3752604.216, 5267629.307, 6420425.726), stdev = 658353.891
+  CI (99.9%): [4695943.790, 5839314.823] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.submitted
+
+# Run progress: 11.11% complete, ETA 00:11:14
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 4669999.103 ops/s
+# Warmup Iteration   2: 6035446.015 ops/s
+# Warmup Iteration   3: 6048480.331 ops/s
+# Warmup Iteration   4: 6298219.893 ops/s
+# Warmup Iteration   5: 6927160.823 ops/s
+# Warmup Iteration   6: 6414325.319 ops/s
+# Warmup Iteration   7: 6089559.772 ops/s
+# Warmup Iteration   8: 4668764.539 ops/s
+# Warmup Iteration   9: 5731723.909 ops/s
+# Warmup Iteration  10: 6088013.390 ops/s
+# Warmup Iteration  11: 6146604.249 ops/s
+# Warmup Iteration  12: 6164854.681 ops/s
+# Warmup Iteration  13: 5963726.881 ops/s
+# Warmup Iteration  14: 6036117.888 ops/s
+# Warmup Iteration  15: 6070578.343 ops/s
+# Warmup Iteration  16: 6011148.115 ops/s
+# Warmup Iteration  17: 6027492.158 ops/s
+# Warmup Iteration  18: 6080450.563 ops/s
+# Warmup Iteration  19: 5807359.587 ops/s
+# Warmup Iteration  20: 5758455.015 ops/s
+Iteration   1: 5826553.136 ops/s
+Iteration   2: 5634803.463 ops/s
+Iteration   3: 5830337.112 ops/s
+Iteration   4: 5929091.676 ops/s
+Iteration   5: 4718423.562 ops/s
+Iteration   6: 6846963.208 ops/s
+Iteration   7: 5071030.281 ops/s
+Iteration   8: 5717143.170 ops/s
+Iteration   9: 6265654.111 ops/s
+Iteration  10: 5537138.135 ops/s
+Iteration  11: 6540193.261 ops/s
+Iteration  12: 6221631.042 ops/s
+Iteration  13: 5152236.457 ops/s
+Iteration  14: 5466502.439 ops/s
+Iteration  15: 6662576.378 ops/s
+Iteration  16: 7867174.129 ops/s
+Iteration  17: 8761337.409 ops/s
+Iteration  18: 9292830.105 ops/s
+Iteration  19: 10305920.627 ops/s
+Iteration  20: 10327972.045 ops/s
+
+# Run progress: 16.67% complete, ETA 00:10:31
+# Fork: 1 of 1
+# Warmup Iteration   1: 12838766.823 ops/s
+# Warmup Iteration   2: 13127867.590 ops/s
+# Warmup Iteration   3: 13537327.819 ops/s
+# Warmup Iteration   4: 13154839.024 ops/s
+# Warmup Iteration   5: 13579433.606 ops/s
+# Warmup Iteration   6: 13047211.885 ops/s
+# Warmup Iteration   7: 13475142.894 ops/s
+# Warmup Iteration   8: 13430118.367 ops/s
+# Warmup Iteration   9: 13428508.144 ops/s
+# Warmup Iteration  10: 13434950.502 ops/s
+# Warmup Iteration  11: 12914033.465 ops/s
+# Warmup Iteration  12: 13523506.653 ops/s
+# Warmup Iteration  13: 13149745.291 ops/s
+# Warmup Iteration  14: 13275642.694 ops/s
+# Warmup Iteration  15: 13105345.667 ops/s
+# Warmup Iteration  16: 13569768.671 ops/s
+# Warmup Iteration  17: 13271207.528 ops/s
+# Warmup Iteration  18: 13472735.124 ops/s
+# Warmup Iteration  19: 13465065.804 ops/s
+# Warmup Iteration  20: 12473367.937 ops/s
+Iteration   1: 13435924.549 ops/s
+Iteration   2: 13016764.461 ops/s
+Iteration   3: 13486502.931 ops/s
+Iteration   4: 12800616.105 ops/s
+Iteration   5: 13454520.353 ops/s
+Iteration   6: 13359848.664 ops/s
+Iteration   7: 8592100.454 ops/s
+Iteration   8: 6008681.452 ops/s
+Iteration   9: 6221871.723 ops/s
+Iteration  10: 6907726.667 ops/s
+Iteration  11: 7582076.508 ops/s
+Iteration  12: 6276505.861 ops/s
+Iteration  13: 5758320.888 ops/s
+Iteration  14: 5753028.864 ops/s
+Iteration  15: 6030714.156 ops/s
+Iteration  16: 6117140.365 ops/s
+Iteration  17: 6518133.275 ops/s
+Iteration  18: 6208046.026 ops/s
+Iteration  19: 6189450.338 ops/s
+Iteration  20: 6128460.845 ops/s
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.submitted":
+  8492321.724 ±(99.9%) 2838354.868 ops/s [Average]
+  (min, avg, max) = (5753028.864, 8492321.724, 13486502.931), stdev = 3268653.687
+  CI (99.9%): [5653966.857, 11330676.592] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.suggested
+
+# Run progress: 22.22% complete, ETA 00:09:46
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2157216.811 ops/s
+# Warmup Iteration   2: 1789079.065 ops/s
+# Warmup Iteration   3: 2254696.514 ops/s
+# Warmup Iteration   4: 2704144.757 ops/s
+# Warmup Iteration   5: 2652870.058 ops/s
+# Warmup Iteration   6: 3051467.800 ops/s
+# Warmup Iteration   7: 2276897.199 ops/s
+# Warmup Iteration   8: 2728252.904 ops/s
+# Warmup Iteration   9: 2811003.299 ops/s
+# Warmup Iteration  10: 2213121.479 ops/s
+# Warmup Iteration  11: 2630007.789 ops/s
+# Warmup Iteration  12: 2155129.013 ops/s
+# Warmup Iteration  13: 2576314.475 ops/s
+# Warmup Iteration  14: 2820392.603 ops/s
+# Warmup Iteration  15: 2843612.471 ops/s
+# Warmup Iteration  16: 2850916.075 ops/s
+# Warmup Iteration  17: 2773385.567 ops/s
+# Warmup Iteration  18: 3062349.933 ops/s
+# Warmup Iteration  19: 3044614.177 ops/s
+# Warmup Iteration  20: 2196775.086 ops/s
+Iteration   1: 2759326.971 ops/s
+Iteration   2: 2790594.487 ops/s
+Iteration   3: 3050685.144 ops/s
+Iteration   4: 2756369.813 ops/s
+Iteration   5: 2822508.346 ops/s
+Iteration   6: 2690000.410 ops/s
+Iteration   7: 2165944.334 ops/s
+Iteration   8: 2609298.891 ops/s
+Iteration   9: 2779607.393 ops/s
+Iteration  10: 2367353.928 ops/s
+Iteration  11: 2759326.200 ops/s
+Iteration  12: 3782300.810 ops/s
+Iteration  13: 3038997.075 ops/s
+Iteration  14: 2763164.296 ops/s
+Iteration  15: 2663961.545 ops/s
+Iteration  16: 2672947.321 ops/s
+Iteration  17: 2245363.296 ops/s
+Iteration  18: 2694373.728 ops/s
+Iteration  19: 2740075.671 ops/s
+Iteration  20: 2217473.015 ops/s
+
+# Run progress: 27.78% complete, ETA 00:09:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 2182230.713 ops/s
+# Warmup Iteration   2: 2442288.083 ops/s
+# Warmup Iteration   3: 2676322.154 ops/s
+# Warmup Iteration   4: 2969347.065 ops/s
+# Warmup Iteration   5: 2929947.223 ops/s
+# Warmup Iteration   6: 2604690.148 ops/s
+# Warmup Iteration   7: 2809540.124 ops/s
+# Warmup Iteration   8: 2692652.779 ops/s
+# Warmup Iteration   9: 3052912.411 ops/s
+# Warmup Iteration  10: 2923435.134 ops/s
+# Warmup Iteration  11: 2248977.165 ops/s
+# Warmup Iteration  12: 2889396.558 ops/s
+# Warmup Iteration  13: 2997597.037 ops/s
+# Warmup Iteration  14: 2941137.945 ops/s
+# Warmup Iteration  15: 3008668.861 ops/s
+# Warmup Iteration  16: 3034929.104 ops/s
+# Warmup Iteration  17: 2675398.360 ops/s
+# Warmup Iteration  18: 2434590.070 ops/s
+# Warmup Iteration  19: 2810647.500 ops/s
+# Warmup Iteration  20: 2830651.355 ops/s
+Iteration   1: 1636758.299 ops/s
+Iteration   2: 2503574.643 ops/s
+Iteration   3: 3051121.253 ops/s
+Iteration   4: 2893517.832 ops/s
+Iteration   5: 2976050.495 ops/s
+Iteration   6: 2421335.582 ops/s
+Iteration   7: 2844878.018 ops/s
+Iteration   8: 2935006.221 ops/s
+Iteration   9: 3038806.147 ops/s
+Iteration  10: 1790449.763 ops/s
+Iteration  11: 1982524.139 ops/s
+Iteration  12: 2312983.271 ops/s
+Iteration  13: 2500005.600 ops/s
+Iteration  14: 2707895.538 ops/s
+Iteration  15: 3254384.390 ops/s
+Iteration  16: 3316018.299 ops/s
+Iteration  17: 4149365.261 ops/s
+Iteration  18: 4476074.673 ops/s
+Iteration  19: 4696621.774 ops/s
+Iteration  20: 4909475.992 ops/s
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.suggested":
+  3019842.359 ±(99.9%) 796130.173 ops/s [Average]
+  (min, avg, max) = (1636758.299, 3019842.359, 4909475.992), stdev = 916824.692
+  CI (99.9%): [2223712.186, 3815972.533] (assumes normal distribution)
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion
+
+# Run progress: 33.33% complete, ETA 00:08:24
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁷ s/op
+# Warmup Iteration   8: ≈ 10⁻⁷ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁷ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   6: ≈ 10⁻⁷ s/op
+Iteration   7: ≈ 10⁻⁷ s/op
+Iteration   8: ≈ 10⁻⁷ s/op
+Iteration   9: ≈ 10⁻⁷ s/op
+Iteration  10: ≈ 10⁻⁷ s/op
+Iteration  11: ≈ 10⁻⁷ s/op
+Iteration  12: ≈ 10⁻⁷ s/op
+Iteration  13: ≈ 10⁻⁷ s/op
+Iteration  14: ≈ 10⁻⁷ s/op
+Iteration  15: ≈ 10⁻⁷ s/op
+Iteration  16: ≈ 10⁻⁷ s/op
+Iteration  17: ≈ 10⁻⁷ s/op
+Iteration  18: ≈ 10⁻⁷ s/op
+Iteration  19: ≈ 10⁻⁷ s/op
+Iteration  20: ≈ 10⁻⁷ s/op
+
+# Run progress: 38.89% complete, ETA 00:07:42
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁷ s/op
+# Warmup Iteration  10: ≈ 10⁻⁷ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   6: ≈ 10⁻⁷ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁷ s/op
+Iteration   9: ≈ 10⁻⁷ s/op
+Iteration  10: ≈ 10⁻⁷ s/op
+Iteration  11: ≈ 10⁻⁷ s/op
+Iteration  12: ≈ 10⁻⁷ s/op
+Iteration  13: ≈ 10⁻⁷ s/op
+Iteration  14: ≈ 10⁻⁷ s/op
+Iteration  15: ≈ 10⁻⁷ s/op
+Iteration  16: ≈ 10⁻⁷ s/op
+Iteration  17: ≈ 10⁻⁷ s/op
+Iteration  18: ≈ 10⁻⁷ s/op
+Iteration  19: ≈ 10⁻⁷ s/op
+Iteration  20: ≈ 10⁻⁷ s/op
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion":
+  ≈ 10⁻⁷ s/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.submitted
+
+# Run progress: 44.44% complete, ETA 00:07:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁷ s/op
+# Warmup Iteration   8: ≈ 10⁻⁷ s/op
+# Warmup Iteration   9: ≈ 10⁻⁷ s/op
+# Warmup Iteration  10: ≈ 10⁻⁷ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁷ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   6: ≈ 10⁻⁷ s/op
+Iteration   7: ≈ 10⁻⁷ s/op
+Iteration   8: ≈ 10⁻⁷ s/op
+Iteration   9: ≈ 10⁻⁷ s/op
+Iteration  10: ≈ 10⁻⁷ s/op
+Iteration  11: ≈ 10⁻⁷ s/op
+Iteration  12: ≈ 10⁻⁶ s/op
+Iteration  13: ≈ 10⁻⁷ s/op
+Iteration  14: ≈ 10⁻⁷ s/op
+Iteration  15: ≈ 10⁻⁷ s/op
+Iteration  16: ≈ 10⁻⁷ s/op
+Iteration  17: ≈ 10⁻⁷ s/op
+Iteration  18: ≈ 10⁻⁷ s/op
+Iteration  19: ≈ 10⁻⁷ s/op
+Iteration  20: ≈ 10⁻⁷ s/op
+
+# Run progress: 50.00% complete, ETA 00:06:18
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁷ s/op
+# Warmup Iteration   8: ≈ 10⁻⁷ s/op
+# Warmup Iteration   9: ≈ 10⁻⁷ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁷ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+Iteration   6: ≈ 10⁻⁷ s/op
+Iteration   7: ≈ 10⁻⁷ s/op
+Iteration   8: ≈ 10⁻⁷ s/op
+Iteration   9: ≈ 10⁻⁷ s/op
+Iteration  10: ≈ 10⁻⁷ s/op
+Iteration  11: ≈ 10⁻⁷ s/op
+Iteration  12: ≈ 10⁻⁷ s/op
+Iteration  13: ≈ 10⁻⁷ s/op
+Iteration  14: ≈ 10⁻⁷ s/op
+Iteration  15: ≈ 10⁻⁷ s/op
+Iteration  16: ≈ 10⁻⁷ s/op
+Iteration  17: ≈ 10⁻⁷ s/op
+Iteration  18: ≈ 10⁻⁷ s/op
+Iteration  19: ≈ 10⁻⁷ s/op
+Iteration  20: ≈ 10⁻⁷ s/op
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.submitted":
+  ≈ 10⁻⁷ s/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.suggested
+
+# Run progress: 55.56% complete, ETA 00:05:36
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁷ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁷ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁷ s/op
+Iteration  11: ≈ 10⁻⁷ s/op
+Iteration  12: ≈ 10⁻⁶ s/op
+Iteration  13: ≈ 10⁻⁶ s/op
+Iteration  14: ≈ 10⁻⁶ s/op
+Iteration  15: ≈ 10⁻⁶ s/op
+Iteration  16: ≈ 10⁻⁶ s/op
+Iteration  17: ≈ 10⁻⁶ s/op
+Iteration  18: ≈ 10⁻⁶ s/op
+Iteration  19: ≈ 10⁻⁶ s/op
+Iteration  20: ≈ 10⁻⁷ s/op
+
+# Run progress: 61.11% complete, ETA 00:04:54
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+Iteration   6: ≈ 10⁻⁶ s/op
+Iteration   7: ≈ 10⁻⁶ s/op
+Iteration   8: ≈ 10⁻⁶ s/op
+Iteration   9: ≈ 10⁻⁶ s/op
+Iteration  10: ≈ 10⁻⁶ s/op
+Iteration  11: ≈ 10⁻⁶ s/op
+Iteration  12: ≈ 10⁻⁶ s/op
+Iteration  13: ≈ 10⁻⁶ s/op
+Iteration  14: ≈ 10⁻⁶ s/op
+Iteration  15: ≈ 10⁻⁶ s/op
+Iteration  16: ≈ 10⁻⁶ s/op
+Iteration  17: ≈ 10⁻⁶ s/op
+Iteration  18: ≈ 10⁻⁶ s/op
+Iteration  19: ≈ 10⁻⁶ s/op
+Iteration  20: ≈ 10⁻⁷ s/op
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.suggested":
+  ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion
+
+# Run progress: 66.67% complete, ETA 00:04:12
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁷ s/op
+# Warmup Iteration   8: ≈ 10⁻⁷ s/op
+# Warmup Iteration   9: ≈ 10⁻⁷ s/op
+# Warmup Iteration  10: ≈ 10⁻⁷ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   2: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.008 s/op
+
+Iteration   3: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   4: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.006 s/op
+
+Iteration   6: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: 0.001 s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+Iteration   7: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p0.9999: 0.001 s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+Iteration   8: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   9: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.002 s/op
+
+Iteration  10: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: 0.001 s/op
+                 possibleSuggestion·p1.00:   0.002 s/op
+
+Iteration  11: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+Iteration  12: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  13: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+Iteration  14: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.002 s/op
+
+Iteration  15: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.015 s/op
+
+Iteration  16: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  17: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁵ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  18: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 0 s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.002 s/op
+
+Iteration  19: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  20: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+
+# Run progress: 72.22% complete, ETA 00:03:30
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁷ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   2: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   7: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   9: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   0.003 s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  11: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  12: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  13: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  14: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   0.002 s/op
+
+Iteration  15: ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻³ s/op
+                 possibleSuggestion·p1.00:   0.003 s/op
+
+Iteration  16: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  17: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  18: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  19: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  20: ≈ 10⁻⁷ s/op
+                 possibleSuggestion·p0.00:   ≈ 0 s/op
+                 possibleSuggestion·p0.50:   ≈ 0 s/op
+                 possibleSuggestion·p0.90:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.95:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.99:   ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.999:  ≈ 10⁻⁶ s/op
+                 possibleSuggestion·p0.9999: ≈ 10⁻⁴ s/op
+                 possibleSuggestion·p1.00:   0.001 s/op
+
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion":
+  N = 648026
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 648003 
+    [0.000, 0.001) = 17 
+    [0.001, 0.001) = 2 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 1 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.003) = 0 
+    [0.003, 0.003) = 0 
+    [0.003, 0.003) = 0 
+    [0.003, 0.003) = 1 
+    [0.003, 0.004) = 1 
+    [0.004, 0.004) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁴ s/op
+     p(99.9990) =      0.001 s/op
+     p(99.9999) =      0.003 s/op
+    p(100.0000) =      0.003 s/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.submitted
+
+# Run progress: 77.78% complete, ETA 00:02:48
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁷ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁷ s/op
+# Warmup Iteration  10: ≈ 10⁻⁷ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁷ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.001 s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   7: ≈ 10⁻⁶ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.004 s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  11: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  12: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  13: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  14: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.001 s/op
+
+Iteration  15: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.001 s/op
+
+Iteration  16: ≈ 10⁻⁶ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.001 s/op
+
+Iteration  17: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  18: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  19: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.002 s/op
+
+Iteration  20: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.002 s/op
+
+
+# Run progress: 83.33% complete, ETA 00:02:06
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁷ s/op
+# Warmup Iteration   3: ≈ 10⁻⁷ s/op
+# Warmup Iteration   4: ≈ 10⁻⁷ s/op
+# Warmup Iteration   5: ≈ 10⁻⁷ s/op
+# Warmup Iteration   6: ≈ 10⁻⁷ s/op
+# Warmup Iteration   7: ≈ 10⁻⁷ s/op
+# Warmup Iteration   8: ≈ 10⁻⁷ s/op
+# Warmup Iteration   9: ≈ 10⁻⁷ s/op
+# Warmup Iteration  10: ≈ 10⁻⁷ s/op
+# Warmup Iteration  11: ≈ 10⁻⁷ s/op
+# Warmup Iteration  12: ≈ 10⁻⁷ s/op
+# Warmup Iteration  13: ≈ 10⁻⁷ s/op
+# Warmup Iteration  14: ≈ 10⁻⁷ s/op
+# Warmup Iteration  15: ≈ 10⁻⁷ s/op
+# Warmup Iteration  16: ≈ 10⁻⁷ s/op
+# Warmup Iteration  17: ≈ 10⁻⁷ s/op
+# Warmup Iteration  18: ≈ 10⁻⁷ s/op
+# Warmup Iteration  19: ≈ 10⁻⁷ s/op
+# Warmup Iteration  20: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.001 s/op
+
+Iteration   3: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   4: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   7: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁵ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   8: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   9: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  10: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  11: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  12: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  13: ≈ 10⁻⁶ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻³ s/op
+                 submitted·p1.00:   0.008 s/op
+
+Iteration  14: ≈ 10⁻⁶ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁵ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.005 s/op
+
+Iteration  15: ≈ 10⁻⁶ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻³ s/op
+                 submitted·p1.00:   0.003 s/op
+
+Iteration  16: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  17: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   0.001 s/op
+
+Iteration  18: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  19: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 0 s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  20: ≈ 10⁻⁷ s/op
+                 submitted·p0.00:   ≈ 0 s/op
+                 submitted·p0.50:   ≈ 10⁻⁶ s/op
+                 submitted·p0.90:   ≈ 10⁻⁶ s/op
+                 submitted·p0.95:   ≈ 10⁻⁶ s/op
+                 submitted·p0.99:   ≈ 10⁻⁶ s/op
+                 submitted·p0.999:  ≈ 10⁻⁶ s/op
+                 submitted·p0.9999: ≈ 10⁻⁴ s/op
+                 submitted·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.submitted":
+  N = 491843
+  mean =     ≈ 10⁻⁷ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.001) = 491837 
+    [0.001, 0.001) = 2 
+    [0.001, 0.002) = 1 
+    [0.002, 0.002) = 0 
+    [0.002, 0.003) = 0 
+    [0.003, 0.003) = 1 
+    [0.003, 0.004) = 0 
+    [0.004, 0.004) = 0 
+    [0.004, 0.005) = 0 
+    [0.005, 0.005) = 0 
+    [0.005, 0.006) = 1 
+    [0.006, 0.006) = 0 
+    [0.006, 0.007) = 0 
+    [0.007, 0.007) = 0 
+    [0.007, 0.008) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁴ s/op
+     p(99.9990) =      0.001 s/op
+     p(99.9999) =      0.008 s/op
+    p(100.0000) =      0.008 s/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.suggested
+
+# Run progress: 88.89% complete, ETA 00:01:24
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻³ s/op
+                 suggested·p1.00:   0.014 s/op
+
+Iteration   2: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: 0.001 s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration   4: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   7: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   8: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻³ s/op
+
+Iteration   9: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  10: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  11: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻³ s/op
+                 suggested·p1.00:   0.002 s/op
+
+Iteration  12: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration  13: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  14: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁵ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  15: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  16: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  17: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻³ s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration  18: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  19: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   0.016 s/op
+
+Iteration  20: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+
+# Run progress: 94.44% complete, ETA 00:00:42
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+# Warmup Iteration   2: ≈ 10⁻⁶ s/op
+# Warmup Iteration   3: ≈ 10⁻⁶ s/op
+# Warmup Iteration   4: ≈ 10⁻⁶ s/op
+# Warmup Iteration   5: ≈ 10⁻⁶ s/op
+# Warmup Iteration   6: ≈ 10⁻⁶ s/op
+# Warmup Iteration   7: ≈ 10⁻⁶ s/op
+# Warmup Iteration   8: ≈ 10⁻⁶ s/op
+# Warmup Iteration   9: ≈ 10⁻⁶ s/op
+# Warmup Iteration  10: ≈ 10⁻⁶ s/op
+# Warmup Iteration  11: ≈ 10⁻⁶ s/op
+# Warmup Iteration  12: ≈ 10⁻⁶ s/op
+# Warmup Iteration  13: ≈ 10⁻⁶ s/op
+# Warmup Iteration  14: ≈ 10⁻⁶ s/op
+# Warmup Iteration  15: ≈ 10⁻⁶ s/op
+# Warmup Iteration  16: ≈ 10⁻⁶ s/op
+# Warmup Iteration  17: ≈ 10⁻⁶ s/op
+# Warmup Iteration  18: ≈ 10⁻⁶ s/op
+# Warmup Iteration  19: ≈ 10⁻⁶ s/op
+# Warmup Iteration  20: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁵ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   2: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   3: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁵ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   4: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁵ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   5: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   6: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   7: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   8: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁵ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration   9: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  10: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration  11: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  12: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration  13: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  14: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  15: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻³ s/op
+
+Iteration  16: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  17: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+Iteration  18: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: 0.001 s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration  19: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   0.001 s/op
+
+Iteration  20: ≈ 10⁻⁶ s/op
+                 suggested·p0.00:   ≈ 0 s/op
+                 suggested·p0.50:   ≈ 10⁻⁶ s/op
+                 suggested·p0.90:   ≈ 10⁻⁶ s/op
+                 suggested·p0.95:   ≈ 10⁻⁶ s/op
+                 suggested·p0.99:   ≈ 10⁻⁶ s/op
+                 suggested·p0.999:  ≈ 10⁻⁶ s/op
+                 suggested·p0.9999: ≈ 10⁻⁴ s/op
+                 suggested·p1.00:   ≈ 10⁻⁴ s/op
+
+
+
+Result "me.fahimfarook.benchmark.BenchmarkRunner.suggested":
+  N = 514149
+  mean =     ≈ 10⁻⁶ ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 514126 
+    [0.000, 0.000) = 12 
+    [0.000, 0.000) = 4 
+    [0.000, 0.001) = 1 
+    [0.001, 0.001) = 2 
+    [0.001, 0.001) = 2 
+    [0.001, 0.001) = 1 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ≈ 0 s/op
+     p(50.0000) =     ≈ 10⁻⁶ s/op
+     p(90.0000) =     ≈ 10⁻⁶ s/op
+     p(95.0000) =     ≈ 10⁻⁶ s/op
+     p(99.0000) =     ≈ 10⁻⁶ s/op
+     p(99.9000) =     ≈ 10⁻⁶ s/op
+     p(99.9900) =     ≈ 10⁻⁴ s/op
+     p(99.9990) =      0.001 s/op
+     p(99.9999) =      0.001 s/op
+    p(100.0000) =      0.001 s/op
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.possibleSuggestion
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+Iteration   1: ≈ 10⁻³ s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 0.001 s/op
+
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.submitted
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+Iteration   1: 0.001 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 0.001 s/op
+
+
+
+# JMH version: 1.19
+# VM version: JDK 1.8.0_101, VM 25.101-b13
+# VM invoker: C:\tools\java\jre8\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8
+# Warmup: <none>
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: me.fahimfarook.benchmark.BenchmarkRunner.suggested
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+Iteration   1: 0.001 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+Iteration   1: 0.001 s/op
+
+
+
+# Run complete. Total time: 00:12:47
+
+Benchmark                                                        Mode     Cnt        Score         Error  Units
+BenchmarkRunner.possibleSuggestion                              thrpt      20  5267629.307 ±  571685.517  ops/s
+BenchmarkRunner.submitted                                       thrpt      20  8492321.724 ± 2838354.868  ops/s
+BenchmarkRunner.suggested                                       thrpt      20  3019842.359 ±  796130.173  ops/s
+BenchmarkRunner.possibleSuggestion                               avgt      20       ≈ 10⁻⁷                 s/op
+BenchmarkRunner.submitted                                        avgt      20       ≈ 10⁻⁷                 s/op
+BenchmarkRunner.suggested                                        avgt      20       ≈ 10⁻⁶                 s/op
+BenchmarkRunner.possibleSuggestion                             sample  648026       ≈ 10⁻⁷                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.00    sample                  ≈ 0                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.50    sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.90    sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.95    sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.99    sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.999   sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p0.9999  sample               ≈ 10⁻⁴                 s/op
+BenchmarkRunner.possibleSuggestion:possibleSuggestion·p1.00    sample                0.003                 s/op
+BenchmarkRunner.submitted                                      sample  491843       ≈ 10⁻⁷                 s/op
+BenchmarkRunner.submitted:submitted·p0.00                      sample                  ≈ 0                 s/op
+BenchmarkRunner.submitted:submitted·p0.50                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.submitted:submitted·p0.90                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.submitted:submitted·p0.95                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.submitted:submitted·p0.99                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.submitted:submitted·p0.999                     sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.submitted:submitted·p0.9999                    sample               ≈ 10⁻⁴                 s/op
+BenchmarkRunner.submitted:submitted·p1.00                      sample                0.008                 s/op
+BenchmarkRunner.suggested                                      sample  514149       ≈ 10⁻⁶                 s/op
+BenchmarkRunner.suggested:suggested·p0.00                      sample                  ≈ 0                 s/op
+BenchmarkRunner.suggested:suggested·p0.50                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.suggested:suggested·p0.90                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.suggested:suggested·p0.95                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.suggested:suggested·p0.99                      sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.suggested:suggested·p0.999                     sample               ≈ 10⁻⁶                 s/op
+BenchmarkRunner.suggested:suggested·p0.9999                    sample               ≈ 10⁻⁴                 s/op
+BenchmarkRunner.suggested:suggested·p1.00                      sample                0.001                 s/op
+BenchmarkRunner.possibleSuggestion                                 ss                0.001                 s/op
+BenchmarkRunner.submitted                                          ss                0.001                 s/op
+BenchmarkRunner.suggested                                          ss                0.001                 s/op
